@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Update Movies</title>
+    <link rel="stylesheet" href="updateMovie.css">
+    <script defer src="updateMovieView.js" type="module" ></script>
+</head>
+<body>
+    <div id="navbar">
+        <a href="index.html"> Home</a>
+    </div>
+    <div id="movieEntry">
+        <div id="updateTitle">
+             <h1>Enter movie details</h1>
+        </div>
+        <form id="movieDetails">
+            <div class="formField">
+                <label for="title" class="formLabel">Title </label>
+                <input type="text" id="title" name="title" >
+            </div>
+            <div class="formField">
+                <label for="image">Image </label>
+                <input type="text" id="image" name="image">
+            </div>
+            <div class="formField">
+                <label for="director" class="formLabel">Director </label>
+                <input type="text" id="director" name="director">
+            </div>
+            <div class="formField">
+                <label for="genre" class="formLabel">Genre </label>
+                <input type="text" id="genre" name="genre">
+            </div>
+            <div class="formField">
+                <label for="duration" class="formLabel">Duration </label>
+                <input type="text" id="duration" name="duration">
+            </div>
+            <div class="formField" id="labelSummery">
+                <label for="summery"  class="formLabel">Summery </label>
+                <textarea id="summery" name="summery" ></textarea>
+            </div>
+            <div class="buttonHolder">
+                <button type="submit" id="button" >Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

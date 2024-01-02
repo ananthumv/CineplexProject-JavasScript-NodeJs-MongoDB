@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(17, 33, 3);
+    color: rgb(198, 200, 202);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+#movieEntry{
+    position: absolute;
+    /* top: 50%; */
+    left: 25%;
+    /* transform: translate(-50%,-50%); */
+    /* width: 550px;
+    padding: 30px;
+    border-radius: 10px; */
+}
+#addTitle{
+    padding-left: 150px;
+    padding-bottom: 0px;
+}
+
+label{
+    width: 150px;
+    display: inline-block;
+}
+input[type=text] {
+    width: 65%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-style: none;
+}
+#summery{
+    width: 64%;
+    height: 100px;
+    margin: 8px;
+    border-radius: 5px;
+    margin-left: 7px;
+}
+#button{
+    background-color: rgb(8, 193, 39);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 400px;
+}
+
+#labelSummery{
+    display: flex;
+}

@@ -1,0 +1,27 @@
+import axios from "axios";
+
+
+class Model {
+    constructor() {
+
+        this.movies = []
+
+    }
+
+    async loadMovieFromBackend() {
+        const res = await axios.get('http://localhost:9000/movies')
+        const movies = res.data 
+        console.log(movies)
+        return movies;
+    }
+
+    async deleteMovie(id) {
+        const res = await axios.delete('http://localhost:9000/movies/'+id)
+        const movies = res.data 
+        console.log(movies)
+        return movies;
+    }
+
+}
+
+export default Model;

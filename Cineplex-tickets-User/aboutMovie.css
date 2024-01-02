@@ -1,0 +1,74 @@
+body{
+    margin: 0%;
+    letter-spacing: .5px;
+    word-spacing: 1px;
+    font-size: 16px;
+    color: aliceblue;
+    background-color:rgb(21, 21, 3);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',  Verdana, sans-serif;
+}
+
+#navbar{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.movieInfo{
+    display: flex;
+    background-color: rgb(22, 0, 94);
+    padding: 70px 30px 50px 50px;
+}
+
+.movieImage{
+    margin-right: 40px;
+}
+
+.image{
+    border-radius: 14px;
+    width: auto;
+    height: 408px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.aboutMovie{
+    padding: 30px 30px 10px 50px;
+}
+
+h4{
+    font-size: 30px;
+    color: rgba(248, 235, 211, 0.8);
+}
+/* 
+#screenRoot{
+    padding: 0px 30px 50px 50px;
+}
+
+.timeDiv{
+    display: grid;
+    grid-template-columns: 170px 170px 170px;
+}
+
+.time{
+    background-color: rgb(235, 19, 73);
+    padding: 20px;
+    margin: 30PX;
+    border-radius: 5PX;
+    font-size: small;
+} */
+
+
+.bookButton{
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 4px;
+    color: aliceblue;
+    border: none;
+    background-color: rgb(235, 6, 63);
+}

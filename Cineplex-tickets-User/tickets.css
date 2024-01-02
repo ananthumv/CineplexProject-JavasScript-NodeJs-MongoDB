@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+html, body {
+    height: 100%;
+}
+body{
+    background-color: rgb(244, 242, 241);
+}
+
+.container{
+    width:1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+.dashboard{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 32px;
+}
+
+header{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.dashboard{
+    justify-content: center;
+    display: flex;
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+}
+
+
+.tickets-list{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 12px;
+    align-items: center;
+}
+
+.tickets{
+    width: 300px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    border-color: rgb(199, 199, 199);
+    border-style: ridge;
+    border-radius: 5px;
+}

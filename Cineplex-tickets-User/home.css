@@ -1,0 +1,38 @@
+body{
+    margin: 0%;
+    background-color: rgba(8, 7, 15, 0.9);
+    opacity: .7;
+    letter-spacing: .5px;
+    word-spacing: 1px;
+    font-size: 18px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navbar{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(37, 44, 59);
+    padding: 0%;
+    margin: 0%;
+}
+
+#root{
+    display: grid;
+    margin: 20px;
+    grid-template-columns:25% 25% 25% 25% ;
+}
+.movie{
+    margin: 25px;
+}
+.image {
+    width: 280px;
+    margin-top: 130px;
+    border-radius: 25px;
+}
+.summery{
+    width: 289px;
+    font-size: 16px;
+    letter-spacing: .2px;
+    word-spacing: .3px;
+}    

@@ -1,0 +1,36 @@
+body{
+    margin: 0%;
+    letter-spacing: .5px;
+    word-spacing: 1px;
+    font-size: 16px;
+    color: aliceblue;
+    background-color:rgb(9, 3, 21);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',  Verdana, sans-serif;
+}
+
+h4{
+    font-size: 30px;
+    color: rgba(248, 235, 211, 0.8);
+}
+
+#screenRoot{
+    padding: 0px 30px 50px 50px;
+    margin: 10%;
+}
+.screenings{
+    display: flex;
+    justify-content:space-around;
+}
+
+.timeDiv{
+    display: flex;
+}
+
+.time{
+    background-color: rgb(235, 19, 73);
+    padding: 20px;
+    margin: 30PX;
+    border-radius: 5PX;
+    font-size: small;
+}
+

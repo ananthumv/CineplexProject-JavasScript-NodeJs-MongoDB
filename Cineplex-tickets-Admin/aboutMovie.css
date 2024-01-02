@@ -1,0 +1,62 @@
+body{
+    margin: 0%;
+    letter-spacing: .5px;
+    word-spacing: 1px;
+    font-size: 16px;
+    background-color:antiquewhite;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',  Verdana, sans-serif;
+}
+
+#navbar{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.movieInfo{
+    display: flex;
+    background-color: beige;
+    padding: 70px 30px 50px 50px;
+}
+
+.movieImage{
+    margin-right: 40px;
+}
+
+.image{
+    border-radius: 14px;
+    width: auto;
+    height: 408px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.aboutMovie{
+    padding: 30px 30px 10px 50px;
+}
+
+h4{
+    font-size: 30px;
+    color: rgba(11, 11, 11, 0.8);
+}
+
+#screenRoot{
+    padding: 0px 30px 50px 50px;
+}
+
+.timeDiv{
+    display: grid;
+    grid-template-columns: 170px 170px 170px;
+}
+
+.time{
+    background-color: rgb(244, 96, 143);
+    padding: 20px;
+    margin: 30PX;
+    border-radius: 5PX;
+    font-size: small;
+}
+

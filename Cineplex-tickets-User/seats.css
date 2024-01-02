@@ -1,0 +1,71 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+body{
+    background-color: antiquewhite;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#screen{
+    width: 400px;
+    border-radius: 4px;
+    margin: auto auto auto  ;
+    margin-top: 100px;
+    height: 12px;
+    border: 1px solid rgb(172, 172, 172);
+    background-color: rgb(227, 228, 232);
+}
+.seats{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    grid-gap: 12px;
+    margin-bottom: 10px;
+    margin-right: 140px;
+}
+
+.rowId{
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    font-family:  'Open Sans';
+    color: rgb(158, 158, 156);
+}
+.seat{
+    width: 24px;
+    height: 24px;
+    font-family:  'Open Sans';
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(46, 232, 22);
+    border-width: 1px;
+    border-radius: 3px;
+    background-color: rgb(239, 245, 238);
+}
+.seat:hover{
+    background-color: yellow;
+}
+.booked{
+    background-color: rgb(241, 125, 125);
+}
+.selected{
+    background-color: rgb(118, 255, 91);
+}
+.bookButton{
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 4px;
+    color: aliceblue;
+    border: none;
+    background-color: rgb(235, 6, 63);
+}
